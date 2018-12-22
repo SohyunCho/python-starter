@@ -25,3 +25,33 @@
 # while (a < 20):
 #     print(a)
 #     break
+
+
+# 소현님꺼
+# a = int(input())
+# while (20 > a >= 11):
+#     print(a)
+#     a += 1
+
+# 기호님꺼
+# a = int(input())
+# while (a < 20):
+#     if (a <= 10):
+#         break
+#     print(a)
+#     a += 1
+
+
+well = int(input())
+upForDay = int(input())
+down = int(input())
+days = 1
+totalUp = 0
+
+while (totalUp <= well):
+    totalUp += upForDay  # totalUp = totalUp + upForDay
+    if (totalUp >= well):
+        break
+    days += 1
+    totalUp -= down  # totalUp = totalUp - down
+print("우물을 탈출하는데 걸리는 일 수 : %d" % days)
