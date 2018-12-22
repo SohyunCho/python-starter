@@ -18,8 +18,40 @@
 # a = input()
 # print(a[:2])
 
+''
+""
+'ab'
+""
+#a = input()
+#b = input()
+#print(a)
+#print(b[:5])
 
-a = input()
-b = input()
-print(a)
-print(b[:5])
+#a = int(input())
+#b = int(input())
+#print(a + b)
+
+#c = int(input())
+#d = int(input())
+#print(c - d)
+
+#e = int(input())
+#f = int(input())
+#print(e * f)
+
+#g = int(input())
+#h = int(input())
+#print(g / h)
+
+#i = float(input())
+#j = float(input())
+#print(i + j)
+#i = float(input())
+#j = float(input())
+#print(i - j)
+# i = float(input())
+# j = float(input())
+# print(i * j)
+# i = float(input())
+# j = float(input())
+# print(i / j)
